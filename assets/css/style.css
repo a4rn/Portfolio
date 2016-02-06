@@ -10,6 +10,7 @@
      	width: 650px;
      	margin-left: 100px;
     	margin-right: 100px;
+
      }
 	
     body {
@@ -23,7 +24,7 @@
 
 	.page-header {
 		font-family: 'Georgia', Times, Times New Roman, serif;
-		width: 1320px;
+		width: 1340px;
 		height: 70px;
      	
 		background-color: #ffffff;
@@ -40,18 +41,19 @@
     	
     }
     
-
+/*
 	ul {
 		position: absolute;
 		left: 800px;
 		top: 20px;
 	}
 
-	ul.page-header {
+*/	ul.page-header {
 		background-color: #ffffff;
-		
+				position: absolute;
 		left: 800px;
 		width: 250px;
+		top: 20px;
 	}
 	
 	li {
@@ -78,21 +80,25 @@
 	}
 
 	.connect-linker {
-		width: 270px;
-		height: 60px;
-		
-		border-style: solid;	
+		width: 170px;
+		height: 120px;
+		position: absolute;
+	/*	border-style: solid;	*/
 		margin-left: 700px;
 		background-color: #ffffff;
+		top: 110px;
+		text-align: center;
+		
 	}
 
-	ul.connect-linker {
-		top: 160px;
+	li.connect-linker {
+		display: inline;
 	}
-	
+
+
 	.page-footer {
 		padding-top: 50px;
-		width: 1200px;
+		width: 1340px;
 		height: 50px;
 		background-color: #666666;
 		text-align: center;
