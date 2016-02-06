@@ -4,12 +4,6 @@
     	width: 960px;
     }
   
-
-   #entire-content {
-     	background-image: url("../images/light_toast.png");
-     	width: 650px;
-     }
-	
     body {
      	
      	background-color: #ffffff;
@@ -17,7 +11,12 @@
 
      }
 
-    
+     #entire-content {
+     	background-image: url("../images/light_toast.png");
+     	width: 650px;
+     }
+	
+
 	.page-header {
 		font-family: 'Georgia', Times, Times New Roman, serif;
 		width: 300px;
@@ -28,16 +27,11 @@
 		
 	}
 
-	ul {
+	ul.page-header {
+		background-color: #ffffff;
 		position: absolute;
 		left: 800px;
 		top: 20px;
-	}
-
-	ul.page-header {
-		background-color: #ffffff;
-		
-		left: 800px;
 		width: 250px;
 	}
 	
@@ -64,11 +58,6 @@
 		margin-right: 15px;
 	}
 
-	.connect-linker {
-		width: 270px;
-		height: 60px;
-		top: 160px;
-	}
 
 	.page-footer {
 		padding-top: 50px;
@@ -84,7 +73,11 @@
 		border-style: solid;
 	}
 
+	.connect-linker {
+		width: 270px;
+		height: 60px;
+		top: 160px;
 		
 
 
-	
+	}
