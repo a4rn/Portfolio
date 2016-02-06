@@ -81,18 +81,20 @@
 
 	.connect-linker {
 		width: 170px;
-		height: 120px;
+		height: 140px;
 		position: absolute;
-	/*	border-style: solid;	*/
+	/*	border-style: solid;	*/	
 		margin-left: 700px;
 		background-color: #ffffff;
 		top: 110px;
+		
 		text-align: center;
 		
 	}
 
 	li.connect-linker {
-		display: inline;
+		display: inline-block;
+		/*padding: 10px;*/
 	}
 
 
@@ -103,6 +105,7 @@
 		background-color: #666666;
 		text-align: center;
 	}
+
 
 	hr.page-footer {
 		border-color: #cccccc;
