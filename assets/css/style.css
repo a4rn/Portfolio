@@ -107,9 +107,11 @@
 	}
 
 
-	hr.page-footer {
-		border-color: #cccccc;
-		border-width: 3px;
+	hr.footer-div {
+		margin: 0px;
+		width: 1340px;
+		border-color: #4aaaa5;
+		border-width: 5px;
 		border-style: solid;
 	}
 
