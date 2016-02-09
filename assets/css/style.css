@@ -12,6 +12,8 @@
 
   h1, h2 {
   	font-family: 'Georgia', Times, Times New Roman, serif;
+  	font-weight: bold;
+  	color: #4aaaa5;	
     }
 
 
@@ -84,6 +86,18 @@ article {
 	float: left;
 }
 
+article h1{
+	height: 70px;
+	font-size: 2.5vw;
+	margin-top: 3%;
+	margin-left: 2%;
+	
+}
+
+article hr  {
+	margin-bottom: 3%;
+}
+
 article p {
 	line-height: 1.4em;
 	font-size: 1.3em;
@@ -96,10 +110,6 @@ article img {
 
 .main-content {
 	float: left;
-}
-
-#abtme {
-
 }
 
 
@@ -130,14 +140,19 @@ h2 {
 
 }
 
-#footer-div {
+
+footer {
 	clear:both;
 	margin: 0px;
-	width: 100px;
+	height: auto;
 	border-color: #4aaaa5;
 	border-width: 5px;
 	border-style: solid;
 
+}
+
+footer hr {
+	max-width: 1400px;
 }
 	
 h6 {	
